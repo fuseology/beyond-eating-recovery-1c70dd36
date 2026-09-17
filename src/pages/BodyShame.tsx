@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import { CheckCircle2, Calendar, Heart, AlertCircle } from "lucide-react";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { Button } from "@/components/ui/button";
