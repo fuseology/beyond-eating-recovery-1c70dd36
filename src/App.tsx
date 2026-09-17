@@ -56,15 +56,11 @@ import Connect from "./pages/Connect";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <CookieConsent />
-        <Routes>
+export const AppRoutes = () => (
+  <>
+    <ScrollToTop />
+    <CookieConsent />
+    <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/about/anne-cuthbert" element={<AnneCuthbert />} />
