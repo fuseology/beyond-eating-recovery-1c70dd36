@@ -25,7 +25,6 @@ const routeLabels: Record<string, string> = {
   '/secure-file-submissions': 'Secure File Submissions',
   '/about/anne-cuthbert': 'Anne Cuthbert',
   '/about/bailey-benn': 'Bailey Benn',
-  '/about/alyssa-pataki': 'Alyssa Pataki',
   '/about/kiandra-cole': 'Kiandra Cole',
   '/about/rachel-bennett': 'Rachel Bennett',
   
