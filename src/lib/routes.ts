@@ -32,6 +32,7 @@ const teamImages: Record<string, ImageInfo> = {
   'mary-cooper': { src: '/src/assets/mary-cooper.webp', title: 'Mary Cooper - Marketing Administrator', caption: 'Marketing support at Beyond Eating Recovery' },
   'emery-pederson': { src: '/src/assets/emery-pederson.webp', title: 'Emery Pederson - Admin Support', caption: 'Administrative support at Beyond Eating Recovery' },
   'mackenzie-stracke': { src: '/src/assets/mackenzie-stracke.jpg', title: 'Mackenzie Stracke - Counseling Student Intern', caption: 'Graduate counseling intern at Beyond Eating Recovery' },
+  'gina-parisi': { src: '/src/assets/gina-parisi.webp', title: 'Gina Parisi - Counseling Student Intern', caption: 'Graduate counseling intern specializing in athlete eating disorders' },
 };
 
 export const routes: RouteConfig[] = [
