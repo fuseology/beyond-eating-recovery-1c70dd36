@@ -83,6 +83,7 @@ export const routes: RouteConfig[] = [
   { path: '/about/mary-cooper', sourceFile: 'src/pages/about/MaryCooper.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['mary-cooper']] },
   { path: '/about/emery-pederson', sourceFile: 'src/pages/about/EmeryPederson.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['emery-pederson']] },
   { path: '/about/mackenzie-stracke', sourceFile: 'src/pages/about/MackenzieStracke.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['mackenzie-stracke']] },
+  { path: '/about/gina-parisi', sourceFile: 'src/pages/about/GinaParisi.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['gina-parisi']] },
   
   // Conditions Pages
   { path: '/conditions/anorexia-nervosa', sourceFile: 'src/pages/conditions/AnorexiaNervosa.tsx', priority: 0.8, changefreq: 'monthly' },
