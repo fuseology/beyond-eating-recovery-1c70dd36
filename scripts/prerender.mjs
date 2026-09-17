@@ -8,9 +8,23 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const distDir = path.join(root, "dist");
 
-const { render, routes } = await import(
-  pathToFileURL(path.join(root, "dist-ssr", "entry-server.js")).href
-);
+const ssrDir = path.join(root, "dist-ssr");
+const findEntry = (dir) => {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      const found = findEntry(full);
+      if (found) return found;
+    } else if (/^entry-server(\.[\w-]+)?\.(m?js)$/.test(entry.name)) {
+      return full;
+    }
+  }
+  return null;
+};
+const entryPath = findEntry(ssrDir);
+if (!entryPath) throw new Error("SSR entry-server bundle not found in dist-ssr");
+
+const { render, routes } = await import(pathToFileURL(entryPath).href);
 
 const template = fs.readFileSync(path.join(distDir, "index.html"), "utf-8");
 
