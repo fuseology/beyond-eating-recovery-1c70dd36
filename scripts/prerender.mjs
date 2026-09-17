@@ -8,10 +8,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const distDir = path.join(root, "dist");
 
-const { render } = await import(
-  path.join(root, "dist-ssr", "entry-server.js")
+const { render, routes } = await import(
+  pathToFileURL(path.join(root, "dist-ssr", "entry-server.js")).href
 );
-const { routes } = await import(path.join(root, "dist-ssr", "routes.js"));
 
 const template = fs.readFileSync(path.join(distDir, "index.html"), "utf-8");
 
