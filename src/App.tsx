@@ -108,7 +108,8 @@ export const AppRoutes = () => (
           <Route path="/resources/5-steps-diet-roller-coaster" element={<FiveStepsDietRollerCoaster />} />
           <Route path="/resources/move-toward-your-emotions" element={<MoveTowardYourEmotions />} />
           <Route path="/secure-file-submissions" element={<SecureFileSubmissions />} />
-          <Route path="/connect" element={<Connect />} />
+      <Route path="/connect" element={<Connect />} />
+      <Route path="/seo-diagnostics" element={<SeoDiagnostics />} />
       {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
       <Route path="*" element={<NotFound />} />
     </Routes>
