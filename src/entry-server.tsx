@@ -3,6 +3,8 @@ import { StaticRouter } from "react-router-dom/server";
 import { Helmet } from "react-helmet";
 import { AppProviders, AppRoutes } from "./App";
 
+export { routes } from "./lib/routes";
+
 export interface RenderResult {
   html: string;
   head: string;
