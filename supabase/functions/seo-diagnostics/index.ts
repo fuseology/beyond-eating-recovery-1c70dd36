@@ -190,7 +190,7 @@ For each page, report problems only where evidence exists in the data. Check:
 
 Never invent clinical, insurance, or outcome claims. Do not suggest wording that guarantees results.
 
-Return ONLY JSON matching:
+Return ONLY json matching this shape (respond with json, no prose):
 {"summary": string, "pages": [{"path": string, "severity": "ok"|"warning"|"error", "issues": [{"type": string, "severity": "warning"|"error", "detail": string, "fix": string}]}]}
 
 DATA:
