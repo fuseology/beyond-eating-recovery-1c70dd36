@@ -756,6 +756,9 @@ const Contact = () => {
               <p className="text-muted-foreground">
                 Have questions about insurance or billing? Check our <Link to="/faq#insurance" className="text-primary hover:underline font-semibold">comprehensive FAQ page</Link> for detailed answers.
               </p>
+              <p className="text-muted-foreground mt-2">
+                Need to send us documents? Use our <Link to="/secure-file-submissions" className="text-primary hover:underline font-semibold">secure file submissions</Link> page.
+              </p>
             </div>
           </div>
         </div>

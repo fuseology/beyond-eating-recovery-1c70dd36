@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import { CheckCircle2, Calendar, Heart, AlertCircle } from "lucide-react";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { Button } from "@/components/ui/button";
@@ -13,6 +14,21 @@ import bookCover from "@/assets/if-your-hunger-could-talk-book.jpg";
 const BodyShame = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Body Shame & Eating Disorders | Beyond Eating Recovery</title>
+        <meta
+          name="description"
+          content="Body shame counseling in Portland & Vancouver. Understand where body shame comes from and find compassionate, weight-neutral support for healing your relationship with your body."
+        />
+        <link rel="canonical" href="https://www.beyondeatingrecovery.com/body-shame" />
+        <meta property="og:title" content="Body Shame & Eating Disorders | Beyond Eating Recovery" />
+        <meta property="og:description" content="Compassionate body shame counseling in Portland & Vancouver from Beyond Eating Recovery." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.beyondeatingrecovery.com/body-shame" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Body Shame & Eating Disorders | Beyond Eating Recovery" />
+        <meta name="twitter:description" content="Compassionate body shame counseling in Portland & Vancouver from Beyond Eating Recovery." />
+      </Helmet>
       <BreadcrumbSchema />
       <Header />
       <Breadcrumbs />

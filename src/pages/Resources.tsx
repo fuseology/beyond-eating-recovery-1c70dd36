@@ -364,7 +364,14 @@ const Resources = () => {
           <h2 className="text-3xl font-bold text-center mb-12 text-primary">
             Latest Blog Posts
           </h2>
-          <p className="text-center text-muted-foreground mb-8">Coming soon - helpful articles about eating disorder recovery</p>
+          <p className="text-center text-muted-foreground mb-4">Coming soon - helpful articles about eating disorder recovery</p>
+          <p className="text-center text-foreground/80 mb-8">
+            In the meantime, explore our self-study course{" "}
+            <Link to="/battle-of-the-binge" className="text-primary hover:underline font-semibold">
+              Battle of the Binge
+            </Link>
+            .
+          </p>
           <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto mb-8">
             {blogPosts.map((post) => (
               <Card key={post.id} className="border-2 overflow-hidden opacity-75 relative">

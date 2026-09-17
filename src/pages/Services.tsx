@@ -159,10 +159,10 @@ const Services = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Eating Disorder Treatment Services | Individual, Group & Nutrition Therapy</title>
+        <title>Eating Disorder Treatment Services | Mental Health Clinic | Individual, Group & Nutrition Therapy</title>
         <meta 
           name="description" 
-          content="Comprehensive eating disorder treatment in Portland & Vancouver: individual therapy, group therapy, nutrition counseling, family therapy, and virtual care. Evidence-based, compassionate support." 
+          content="Comprehensive eating disorder treatment in Portland & Vancouver from licensed psychotherapists (LPC, LMHC): individual therapy, group therapy, nutrition counseling, family therapy, and virtual care." 
         />
         <meta name="keywords" content="eating disorder therapy Portland, group therapy eating disorders, nutrition counseling Vancouver WA, virtual eating disorder treatment, family therapy eating disorders, telehealth therapy Oregon" />
         <link rel="canonical" href="https://www.beyondeatingrecovery.com/services" />

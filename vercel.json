@@ -1,6 +1,16 @@
 {
   "redirects": [
     {
+      "source": "/about/alyssa-pataki",
+      "destination": "https://www.beyondeatingrecovery.com/about",
+      "permanent": true
+    },
+    {
+      "source": "/conditions/eating-disorders-men",
+      "destination": "https://www.beyondeatingrecovery.com/conditions/men-eating-disorders",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "beyondeatingrecovery.com" }],
       "destination": "https://www.beyondeatingrecovery.com/$1",
