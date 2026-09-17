@@ -56,15 +56,11 @@ import Connect from "./pages/Connect";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <CookieConsent />
-        <Routes>
+export const AppRoutes = () => (
+  <>
+    <ScrollToTop />
+    <CookieConsent />
+    <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/about/anne-cuthbert" element={<AnneCuthbert />} />
@@ -112,12 +108,28 @@ const App = () => (
           <Route path="/resources/move-toward-your-emotions" element={<MoveTowardYourEmotions />} />
           <Route path="/secure-file-submissions" element={<SecureFileSubmissions />} />
           <Route path="/connect" element={<Connect />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </>
+);
+
+export const AppProviders = ({ children }: { children: React.ReactNode }) => (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      {children}
     </TooltipProvider>
   </QueryClientProvider>
+);
+
+const App = () => (
+  <AppProviders>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  </AppProviders>
 );
 
 export default App;

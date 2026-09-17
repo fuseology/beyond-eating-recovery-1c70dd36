@@ -32,6 +32,7 @@ const teamImages: Record<string, ImageInfo> = {
   'mary-cooper': { src: '/src/assets/mary-cooper.webp', title: 'Mary Cooper - Marketing Administrator', caption: 'Marketing support at Beyond Eating Recovery' },
   'emery-pederson': { src: '/src/assets/emery-pederson.webp', title: 'Emery Pederson - Admin Support', caption: 'Administrative support at Beyond Eating Recovery' },
   'mackenzie-stracke': { src: '/src/assets/mackenzie-stracke.jpg', title: 'Mackenzie Stracke - Counseling Student Intern', caption: 'Graduate counseling intern at Beyond Eating Recovery' },
+  'gina-parisi': { src: '/src/assets/gina-parisi.webp', title: 'Gina Parisi - Counseling Student Intern', caption: 'Graduate counseling intern specializing in athlete eating disorders' },
 };
 
 export const routes: RouteConfig[] = [
@@ -83,6 +84,7 @@ export const routes: RouteConfig[] = [
   { path: '/about/mary-cooper', sourceFile: 'src/pages/about/MaryCooper.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['mary-cooper']] },
   { path: '/about/emery-pederson', sourceFile: 'src/pages/about/EmeryPederson.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['emery-pederson']] },
   { path: '/about/mackenzie-stracke', sourceFile: 'src/pages/about/MackenzieStracke.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['mackenzie-stracke']] },
+  { path: '/about/gina-parisi', sourceFile: 'src/pages/about/GinaParisi.tsx', priority: 0.7, changefreq: 'monthly', images: [teamImages['gina-parisi']] },
   
   // Conditions Pages
   { path: '/conditions/anorexia-nervosa', sourceFile: 'src/pages/conditions/AnorexiaNervosa.tsx', priority: 0.8, changefreq: 'monthly' },
