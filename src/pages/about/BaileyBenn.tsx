@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import baileyBennPhoto from "@/assets/bailey-benn-new.webp";
 import anneImage from "@/assets/anne-cuthbert.jpg";
-import alyssaImage from "@/assets/alyssa-pataki.webp";
 import kiandraImage from "@/assets/kiandra-cole.webp";
 import rachelImage from "@/assets/rachel-bennett.webp";
 import { Link } from "react-router-dom";
@@ -662,22 +661,6 @@ const BaileyBenn = () => {
               </Card>
             </Link>
             
-            <Link to="/about/alyssa-pataki">
-              <Card className="border-0 shadow-md hover:shadow-xl transition-all hover:scale-105">
-                <CardContent className="pt-6 text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden">
-                    <img 
-                      src={alyssaImage} 
-                      alt="Alyssa Pataki" 
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <h4 className="text-lg font-bold text-[#1a428a] mb-1">Alyssa Pataki</h4>
-                  <p className="text-sm text-[#333333] mb-2">MA, LMFT</p>
-                  <p className="text-xs text-[#333333]/70">Family Therapist</p>
-                </CardContent>
-              </Card>
-            </Link>
             
             <Link to="/about/kiandra-cole">
               <Card className="border-0 shadow-md hover:shadow-xl transition-all hover:scale-105">

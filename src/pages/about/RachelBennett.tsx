@@ -8,7 +8,6 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import anneImage from "@/assets/anne-cuthbert.jpg";
 import baileyImage from "@/assets/bailey-benn-new.webp";
 import rachelImage from "@/assets/rachel-bennett.webp";
-import alyssaImage from "@/assets/alyssa-pataki.webp";
 import kiandraImage from "@/assets/kiandra-cole.webp";
 import { Helmet } from "react-helmet";
 
@@ -858,28 +857,6 @@ const RachelBennett = () => {
               </CardContent>
             </Card>
 
-            {/* Alyssa Pataki Card */}
-            <Card className="hover:shadow-xl transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="w-32 h-32 mx-auto mb-4">
-                  <img 
-                    src={alyssaImage} 
-                    alt="Alyssa Pataki"
-                    className="w-full h-full rounded-full object-cover border-3 border-[#f49a39]"
-                  />
-                </div>
-                <h3 className="text-lg font-bold text-[#1a428a] mb-1">
-                  Alyssa Pataki
-                </h3>
-                <p className="text-xs text-[#666666] mb-2">MA, LMFT</p>
-                <p className="text-sm text-[#333333] mb-4">Couple's & Family Therapist</p>
-                <Link to="/about/alyssa-pataki">
-                  <Button className="bg-[#f49a39] hover:bg-[#e88b28] text-white text-sm">
-                    View Profile
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
 
             {/* Kiandra Cole Card */}
             <Card className="hover:shadow-xl transition-shadow">
