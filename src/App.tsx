@@ -53,6 +53,7 @@ import PrivacyNotice from "./pages/PrivacyNotice";
 import SecureFileSubmissions from "./pages/SecureFileSubmissions";
 import MoveTowardYourEmotions from "./pages/resources/MoveTowardYourEmotions";
 import Connect from "./pages/Connect";
+import SeoDiagnostics from "./pages/SeoDiagnostics";
 
 const queryClient = new QueryClient();
 
