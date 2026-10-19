@@ -160,6 +160,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.beyondeatingrecovery.com/faq" />
   </url>
   <url>
+    <loc>https://www.beyondeatingrecovery.com/peer-consultation-hour</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.beyondeatingrecovery.com/peer-consultation-hour" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.beyondeatingrecovery.com/peer-consultation-hour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.beyondeatingrecovery.com/peer-consultation-hour" />
+  </url>
+  <url>
     <loc>https://www.beyondeatingrecovery.com/workshop</loc>
     <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>

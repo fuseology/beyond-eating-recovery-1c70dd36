@@ -10,6 +10,7 @@ const routeTitles: Record<string, string> = {
   resources: "Resources",
   contact: "Contact",
   workshop: "Workshop",
+  "peer-consultation-hour": "Peer Consultation Hour",
   faq: "FAQ",
   careers: "Careers",
   connect: "Profiles & Resources",

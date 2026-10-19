@@ -74,6 +74,7 @@ const Header = () => {
     { title: "FAQ", href: "/faq" },
     { title: "Loveable At Any Size Workshop", href: "/workshop" },
     { title: "Battle of the Binge Program", href: "/battle-of-the-binge" },
+    { title: "Peer Consultation Hour (for Clinicians)", href: "/peer-consultation-hour" },
     { title: "Blog", href: "/resources" },
     { title: "Audio", href: "/resources#audio" },
     { title: "Self-Assessment Tools", href: "/resources" },
@@ -415,6 +416,9 @@ const Header = () => {
                     </Link>
                     <Link to="/battle-of-the-binge" onClick={() => setIsOpen(false)} className="block text-sm text-foreground/80 hover:text-accent">
                       → Battle of the Binge
+                    </Link>
+                    <Link to="/peer-consultation-hour" onClick={() => setIsOpen(false)} className="block text-sm text-foreground/80 hover:text-accent">
+                      → Peer Consultation Hour (for Clinicians)
                     </Link>
                     <Link to="/resources" onClick={() => setIsOpen(false)} className="block text-sm text-foreground/80 hover:text-accent">
                       → Blog
