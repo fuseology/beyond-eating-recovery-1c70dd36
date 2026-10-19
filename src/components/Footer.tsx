@@ -134,6 +134,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/peer-consultation-hour" className="hover:text-white transition-colors">
+                  Peer Consultation Hour (for Clinicians)
+                </Link>
+              </li>
+              <li>
                 <Link to="/privacy-notice" className="hover:text-white transition-colors">
                   Privacy Notice
                 </Link>
