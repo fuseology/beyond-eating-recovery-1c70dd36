@@ -66,6 +66,7 @@ export const routes: RouteConfig[] = [
   { path: '/resources', sourceFile: 'src/pages/Resources.tsx', priority: 0.8, changefreq: 'weekly' },
   { path: '/faq', sourceFile: 'src/pages/FAQ.tsx', priority: 0.7, changefreq: 'monthly' },
   { path: '/workshop', sourceFile: 'src/pages/Workshop.tsx', priority: 0.8, changefreq: 'monthly', images: [{ src: '/src/assets/workshop-hero.jpg', title: 'Loveable At Any Size Workshop', caption: 'Body acceptance and self-compassion workshop' }] },
+  { path: '/peer-consultation-hour', sourceFile: 'src/pages/PeerConsultationHour.tsx', priority: 0.7, changefreq: 'monthly', lastmod: '2026-10-19' },
   { path: '/careers', sourceFile: 'src/pages/Careers.tsx', priority: 0.7, changefreq: 'monthly' },
   { path: '/philosophy', sourceFile: 'src/pages/Philosophy.tsx', priority: 0.8, changefreq: 'monthly' },
   { path: '/health-at-every-size', sourceFile: 'src/pages/HealthAtEverySize.tsx', priority: 0.8, changefreq: 'monthly', images: [{ src: '/src/assets/benefits-wellness.webp', title: 'Health At Every Size Approach', caption: 'HAES weight-neutral approach to eating disorder treatment' }] },
