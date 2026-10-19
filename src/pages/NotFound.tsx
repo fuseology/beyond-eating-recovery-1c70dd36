@@ -27,6 +27,7 @@ const routeLabels: Record<string, string> = {
   '/about/bailey-benn': 'Bailey Benn',
   '/about/kiandra-cole': 'Kiandra Cole',
   '/about/rachel-bennett': 'Rachel Bennett',
+  '/about/annie-calhoun-randall': 'Annie Calhoun Randall',
   
   '/about/sara-kranich': 'Sara Kranich',
   '/about/stephanie-okumura': 'Stephanie Okumura',

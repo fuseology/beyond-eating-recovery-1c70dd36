@@ -12,6 +12,7 @@ import anneCuthbert from "@/assets/anne-cuthbert.jpg";
 import baileyBenn from "@/assets/bailey-benn-new.webp";
 import kiandraCole from "@/assets/kiandra-cole.webp";
 import rachelBennett from "@/assets/rachel-bennett.webp";
+import annieCalhounRandall from "@/assets/annie-calhoun-randall-new.jpg";
 
 import saraKranich from "@/assets/sara-kranich.webp";
 import stephanieOkumura from "@/assets/stephanie-okumura.webp";
@@ -104,6 +105,7 @@ const About = () => {
         { "@type": "Person", "name": "Bailey Benn", "jobTitle": "MA, LPC, LMHC" },
         { "@type": "Person", "name": "Kiandra Cole", "jobTitle": "MA" },
         { "@type": "Person", "name": "Rachel Bennett", "jobTitle": "MA" },
+        { "@type": "Person", "name": "Annie Calhoun Randall", "jobTitle": "MA" },
         
         { "@type": "Person", "name": "Sara Kranich", "jobTitle": "MA" },
         { "@type": "Person", "name": "Stephanie Okumura", "jobTitle": "MS, RDN" },
@@ -158,6 +160,13 @@ const About = () => {
       image: rachelBennett,
       link: "/about/rachel-bennett",
       bio: "Rachel offers an eclectic approach integrating IFS, CBT, EFT, and ACT from a person-centered lens. With personal recovery experience and body positive programming expertise, she creates truly safe spaces."
+    },
+    {
+      name: "Annie Calhoun Randall, MA, NTP",
+      title: "Professional Counselor Associate | Certified Nutrition Therapy Practitioner",
+      image: annieCalhounRandall,
+      link: "/about/annie-calhoun-randall",
+      bio: "Annie combines counseling, nutrition therapy, and athletic experience. Specializing in athlete eating disorders, she uses body-centered approaches (EFIT, SE, IFS) informed by her own recovery journey."
     },
     {
       name: "Sara Kranich, MA",

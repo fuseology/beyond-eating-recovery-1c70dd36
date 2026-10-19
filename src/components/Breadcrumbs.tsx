@@ -34,6 +34,7 @@ const routeTitles: Record<string, string> = {
   "bailey-benn": "Bailey Benn",
   "sara-kranich": "Sara Kranich",
   "rachel-bennett": "Rachel Bennett",
+  "annie-calhoun-randall": "Annie Calhoun Randall",
   "stephanie-okumura": "Stephanie Okumura",
   "kiandra-cole": "Kiandra Cole",
   "mary-cooper": "Mary Cooper",
