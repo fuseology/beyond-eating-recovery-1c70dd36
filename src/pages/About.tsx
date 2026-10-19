@@ -12,6 +12,7 @@ import anneCuthbert from "@/assets/anne-cuthbert.jpg";
 import baileyBenn from "@/assets/bailey-benn-new.webp";
 import kiandraCole from "@/assets/kiandra-cole.webp";
 import rachelBennett from "@/assets/rachel-bennett.webp";
+import annieCalhounRandall from "@/assets/annie-calhoun-randall-new.jpg";
 
 import saraKranich from "@/assets/sara-kranich.webp";
 import stephanieOkumura from "@/assets/stephanie-okumura.webp";
@@ -104,6 +105,7 @@ const About = () => {
         { "@type": "Person", "name": "Bailey Benn", "jobTitle": "MA, LPC, LMHC" },
         { "@type": "Person", "name": "Kiandra Cole", "jobTitle": "MA" },
         { "@type": "Person", "name": "Rachel Bennett", "jobTitle": "MA" },
+        { "@type": "Person", "name": "Annie Calhoun Randall", "jobTitle": "MA" },
         
         { "@type": "Person", "name": "Sara Kranich", "jobTitle": "MA" },
         { "@type": "Person", "name": "Stephanie Okumura", "jobTitle": "MS, RDN" },
