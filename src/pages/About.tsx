@@ -162,6 +162,13 @@ const About = () => {
       bio: "Rachel offers an eclectic approach integrating IFS, CBT, EFT, and ACT from a person-centered lens. With personal recovery experience and body positive programming expertise, she creates truly safe spaces."
     },
     {
+      name: "Annie Calhoun Randall, MA, NTP",
+      title: "Professional Counselor Associate | Certified Nutrition Therapy Practitioner",
+      image: annieCalhounRandall,
+      link: "/about/annie-calhoun-randall",
+      bio: "Annie combines counseling, nutrition therapy, and athletic experience. Specializing in athlete eating disorders, she uses body-centered approaches (EFIT, SE, IFS) informed by her own recovery journey."
+    },
+    {
       name: "Sara Kranich, MA",
       title: "Professional Counselor Associate",
       image: saraKranich,
