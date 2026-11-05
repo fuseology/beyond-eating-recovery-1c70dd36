@@ -15,14 +15,11 @@
  * 
  * 2. ADDRESS CONSISTENCY
  *    Portland Location:
- *    - 1235 SE Division Street, Suite 104
+ *    - 1235 SE Division St Suite 104
  *    - Portland, OR 97202
  *    - United States
  * 
- *    Vancouver Location:
- *    - 400 E. Evergreen Blvd, Suite 309
- *    - Vancouver, WA 98660
- *    - United States
+ *    Vancouver, WA: telehealth service area only (no physical office)
  * 
  * 3. PHONE NUMBER CONSISTENCY
  *    - Primary: (360) 726-4141
@@ -40,7 +37,7 @@
  * 
  * 6. SERVICE AREAS
  *    - Portland, OR (30-mile radius)
- *    - Vancouver, WA (30-mile radius)
+ *    - Vancouver, WA (telehealth)
  *    - Oregon (telehealth)
  *    - Washington (telehealth)
  * 
@@ -63,47 +60,30 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 // Centralized NAP (Name, Address, Phone) Data
 export const NAP_DATA = {
   businessName: "Beyond Eating Recovery",
-  businessNameFull: "Beyond Eating Recovery of Portland",
+  businessNameFull: "Beyond Eating Recovery",
   phone: "(360) 726-4141",
   phoneInternational: "+1-360-726-4141",
   phoneRaw: "3607264141",
-  email: "info@beyondeating.com",
+  email: "intakes@beyondeatingrecovery.com",
   website: "https://www.beyondeatingrecovery.com",
   
   locations: {
     portland: {
       name: "Portland Office",
-      street: "1235 SE Division Street, Suite 104",
+      street: "1235 SE Division St Suite 104",
       city: "Portland",
       state: "OR",
       stateFullName: "Oregon",
       zip: "97202",
       country: "United States",
       countryCode: "US",
-      fullAddress: "1235 SE Division Street, Suite 104, Portland, OR 97202",
+      fullAddress: "1235 SE Division St Suite 104, Portland, OR 97202",
       coordinates: {
         latitude: 45.5050654,
         longitude: -122.6528561
       },
-      googleMapsUrl: "https://www.google.com/maps?cid=2882847891293830454",
-      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5592.498093295984!2d-122.652856!3d45.505065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b992a10ec77%3A0x27e481ed74713d36!2sBody%20Expressions%20of%20Portland%20-%20Eating%20Disorders%20Counseling!5e0!3m2!1sen!2sus!4v1763163338622!5m2!1sen!2sus"
-    },
-    vancouver: {
-      name: "Vancouver Office",
-      street: "400 E. Evergreen Blvd, Suite 309",
-      city: "Vancouver",
-      state: "WA",
-      stateFullName: "Washington",
-      zip: "98660",
-      country: "United States",
-      countryCode: "US",
-      fullAddress: "400 E. Evergreen Blvd, Suite 309, Vancouver, WA 98660",
-      coordinates: {
-        latitude: 45.6894344,
-        longitude: -122.6591071
-      },
-      googleMapsUrl: "https://www.google.com/maps/place/Vancouver,+WA",
-      telehealth: true
+      googleMapsUrl: "https://maps.google.com/maps?cid=2874565319030029622",
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22369.992373183937!2d-122.652856!3d45.505065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b992a10ec77%3A0x27e481ed74713d36!2sBeyond%20Eating%20Recovery%20-%20Eating%20Disorders%20Counseling%20of%20Portland!5e0!3m2!1sen!2sus!4v1780090275980!5m2!1sen!2sus"
     }
   },
   
@@ -182,7 +162,7 @@ export const NAPPhone = ({ className = "", showIcon = false, asLink = true }: NA
 };
 
 interface NAPAddressProps {
-  location?: "portland" | "vancouver";
+  location?: "portland";
   className?: string;
   showIcon?: boolean;
   format?: "full" | "short";
@@ -260,25 +240,15 @@ export const NAPHours = ({ className = "", showIcon = false, format = "short" }:
 interface NAPBlockProps {
   className?: string;
   showHours?: boolean;
-  location?: "portland" | "vancouver" | "both";
+  location?: "portland";
 }
 
 export const NAPBlock = ({ className = "", showHours = true, location = "portland" }: NAPBlockProps) => (
   <div className={`space-y-4 ${className}`}>
     <h3 className="font-semibold text-lg">{NAP_DATA.businessName}</h3>
     
-    {(location === "portland" || location === "both") && (
-      <NAPAddress location="portland" showIcon format="full" />
-    )}
+    <NAPAddress location="portland" showIcon format="full" />
     
-    {(location === "vancouver" || location === "both") && (
-      <div className="mt-2">
-        <NAPAddress location="vancouver" showIcon format="full" />
-        {NAP_DATA.locations.vancouver.telehealth && (
-          <p className="text-sm text-muted-foreground ml-6">(Telehealth services)</p>
-        )}
-      </div>
-    )}
     
     <NAPPhone showIcon asLink />
     <NAPEmail showIcon />
@@ -288,7 +258,7 @@ export const NAPBlock = ({ className = "", showHours = true, location = "portlan
 );
 
 // Schema.org LocalBusiness structured data generator
-export const generateLocalBusinessSchema = (location: "portland" | "vancouver") => {
+export const generateLocalBusinessSchema = (location: "portland") => {
   const loc = NAP_DATA.locations[location];
   
   return {

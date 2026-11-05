@@ -585,7 +585,7 @@ const AtypicalAnorexia = () => {
                   <div className="text-center my-8 p-6 bg-primary/5 rounded-lg">
                     <h3 className="text-2xl font-semibold text-primary mb-4">Taking the First Step</h3>
                     <p className="mb-6">
-                      Contact Beyond Eating Recovery at <a href="tel:360-726-4141" className="text-accent hover:underline font-semibold">360-726-4141</a> to schedule a consultation. We provide compassionate, weight-neutral care for atypical anorexia throughout Oregon and Washington via telehealth.
+                      Contact Beyond Eating Recovery at <a href="tel:360-726-4141" className="text-accent hover:underline font-semibold">(360) 726-4141</a> to schedule a consultation. We provide compassionate, weight-neutral care for atypical anorexia throughout Oregon and Washington via telehealth.
                     </p>
                     <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
                       Schedule Free Consultation
@@ -813,7 +813,7 @@ const AtypicalAnorexia = () => {
                   <div className="space-y-3 mb-4 text-sm">
                     <div className="flex items-start">
                       <Phone className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" />
-                      <span>360-726-4141</span>
+                      <span>(360) 726-4141</span>
                     </div>
                     <div className="flex items-start">
                       <Mail className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" />

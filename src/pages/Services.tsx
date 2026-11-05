@@ -37,7 +37,7 @@ const Services = () => {
         "telephone": "+1-360-726-4141",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "1235 SE Division Street, Suite 104",
+          "streetAddress": "1235 SE Division St Suite 104",
           "addressLocality": "Portland",
           "addressRegion": "OR",
           "postalCode": "97202",
@@ -76,7 +76,7 @@ const Services = () => {
         "telephone": "+1-360-726-4141",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "1235 SE Division Street, Suite 104",
+          "streetAddress": "1235 SE Division St Suite 104",
           "addressLocality": "Portland",
           "addressRegion": "OR",
           "postalCode": "97202",
@@ -414,7 +414,7 @@ const Services = () => {
               <Button asChild size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-white">
                 <a href="tel:+13607264141">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 360-726-4141
+                  Call (360) 726-4141
                 </a>
               </Button>
             </div>
@@ -448,7 +448,7 @@ const Services = () => {
               <Button asChild size="lg">
                 <a href="tel:+13607264141">
                   <Phone className="w-5 h-5 mr-2" />
-                  360-726-4141
+                  (360) 726-4141
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline">
@@ -512,7 +512,7 @@ const Services = () => {
             <Button asChild size="lg" variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-accent text-lg px-8 py-6 h-auto">
               <a href="tel:+13607264141">
                 <Phone className="w-5 h-5 mr-2" />
-                360-726-4141
+                (360) 726-4141
               </a>
             </Button>
           </div>

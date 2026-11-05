@@ -147,7 +147,7 @@ const FAQ = () => {
                 "name": "How do I get started with treatment?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Getting started is simple: 1) Contact us at 360-726-4141 or fill out our contact form, 2) Schedule a low-pressure initial consultation (15-30 minutes) to learn about your concerns, 3) We'll match you with an appropriate therapist or dietitian, 4) Begin your first session and develop a treatment plan. You don't need to be 'sick enough' to deserve support—early intervention leads to better outcomes."
+                  "text": "Getting started is simple: 1) Contact us at (360) 726-4141 or fill out our contact form, 2) Schedule a low-pressure initial consultation (15-30 minutes) to learn about your concerns, 3) We'll match you with an appropriate therapist or dietitian, 4) Begin your first session and develop a treatment plan. You don't need to be 'sick enough' to deserve support—early intervention leads to better outcomes."
                 }
               },
               {
@@ -163,7 +163,7 @@ const FAQ = () => {
                 "name": "Do I need a referral from my doctor?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For most clients, no—you do not need a referral from a doctor to begin therapy or dietitian services at Beyond Eating Recovery. Self-referral is welcome for both individual therapy and dietitian services. Some insurance plans may require a referral for coverage. We may recommend working with a physician if you have medical complications, but this isn't required to start. Contact us at 360-726-4141 and we'll help you navigate what's needed."
+                  "text": "For most clients, no—you do not need a referral from a doctor to begin therapy or dietitian services at Beyond Eating Recovery. Self-referral is welcome for both individual therapy and dietitian services. Some insurance plans may require a referral for coverage. We may recommend working with a physician if you have medical complications, but this isn't required to start. Contact us at (360) 726-4141 and we'll help you navigate what's needed."
                 }
               },
               {
@@ -251,7 +251,7 @@ const FAQ = () => {
                 "name": "Do you accept insurance?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes! Beyond Eating Recovery accepts most major insurance plans for Oregon and Washington residents. We are in-network with many commercial insurance carriers and also work with out-of-network benefits. To verify your specific coverage, please call us at 360-726-4141. Our team will help you understand your benefits and any out-of-pocket costs."
+                  "text": "Yes! Beyond Eating Recovery accepts most major insurance plans for Oregon and Washington residents. We are in-network with many commercial insurance carriers and also work with out-of-network benefits. To verify your specific coverage, please call us at (360) 726-4141. Our team will help you understand your benefits and any out-of-pocket costs."
                 }
               },
               {
@@ -299,7 +299,7 @@ const FAQ = () => {
                 "name": "Do you offer sliding scale or financial assistance?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes! We understand that eating disorder treatment is essential and cost should not be a barrier to care. We offer reduced sliding scale fees based on income and financial situation on a limited basis. We may also be able to work with you on payment arrangements for out-of-pocket costs. Call us at 360-726-4141 to discuss financial assistance options confidentially."
+                  "text": "Yes! We understand that eating disorder treatment is essential and cost should not be a barrier to care. We offer reduced sliding scale fees based on income and financial situation on a limited basis. We may also be able to work with you on payment arrangements for out-of-pocket costs. Call us at (360) 726-4141 to discuss financial assistance options confidentially."
                 }
               },
               {
@@ -353,7 +353,7 @@ const FAQ = () => {
               We're here to answer your questions about treatment, insurance, and getting started
             </p>
             <p className="text-lg mb-8 text-white/80 max-w-3xl mx-auto">
-              If you don't find what you're looking for, please call us at 360-726-4141 or use our <Link to="/contact" className="underline hover:text-white">contact form</Link>.
+              If you don't find what you're looking for, please call us at (360) 726-4141 or use our <Link to="/contact" className="underline hover:text-white">contact form</Link>.
             </p>
             
             {/* Search Bar */}
@@ -659,7 +659,7 @@ const FAQ = () => {
                   <div>
                     <p className="font-semibold text-foreground">Here's how to get started:</p>
                     <ol className="list-decimal pl-6 space-y-3">
-                      <li><strong>Contact Us:</strong> Call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a>, email us, or fill out our <Link to="/contact" className="text-primary hover:underline font-semibold">contact form</Link></li>
+                      <li><strong>Contact Us:</strong> Call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a>, email us, or fill out our <Link to="/contact" className="text-primary hover:underline font-semibold">contact form</Link></li>
                       <li><strong>Initial Consultation:</strong> We'll schedule a low-pressure consultation (15-30 minutes) to learn about your concerns and determine if we're a good fit. No obligation</li>
                       <li><strong>Schedule Your First Appointment:</strong> We'll match you with an appropriate therapist or dietitian</li>
                       <li><strong>First Session:</strong> Meet your provider, share your history, and begin developing a treatment plan</li>
@@ -725,7 +725,7 @@ const FAQ = () => {
                     </ul>
                   </div>
 
-                  <p className="font-semibold text-foreground">Don't let uncertainty about referrals delay getting help. Contact us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a>, and we'll help you navigate what's needed.</p>
+                  <p className="font-semibold text-foreground">Don't let uncertainty about referrals delay getting help. Contact us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a>, and we'll help you navigate what's needed.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -782,7 +782,7 @@ const FAQ = () => {
                     <p>You don't have to have everything figured out or be 100% ready. Many people start therapy while still ambivalent. Readiness often comes DURING therapy, not before.</p>
                   </div>
 
-                  <p>Questions are always welcome. Call <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a> even if you're not ready. There's no judgment. When you ARE ready, we'll be here.</p>
+                  <p>Questions are always welcome. Call <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a> even if you're not ready. There's no judgment. When you ARE ready, we'll be here.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1099,7 +1099,7 @@ const FAQ = () => {
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground space-y-4">
                   <p>Yes! Beyond Eating Recovery accepts most major insurance plans for Oregon and Washington residents. We are in-network with many commercial insurance carriers and also work with out-of-network benefits.</p>
-                  <p>To verify your specific coverage, please call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a> or click the 'Verify Your Insurance' button on our <Link to="/contact" className="text-primary hover:underline font-semibold">contact page</Link>. Our team will help you understand your benefits and any out-of-pocket costs.</p>
+                  <p>To verify your specific coverage, please call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a> or click the 'Verify Your Insurance' button on our <Link to="/contact" className="text-primary hover:underline font-semibold">contact page</Link>. Our team will help you understand your benefits and any out-of-pocket costs.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1114,7 +1114,7 @@ const FAQ = () => {
                     <li><strong>Communicate any insurance changes immediately.</strong> If your insurance plan changes, your coverage changes, or you switch insurance companies, please notify us right away. Changes in coverage can affect your treatment costs and our ability to bill your insurance.</li>
                     <li><strong>Understand your benefits.</strong> Insurance plans vary widely in what they cover for mental health and nutrition services. We recommend calling your insurance company with the questions provided below to fully understand your coverage.</li>
                   </ul>
-                  <p>Please contact us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a> if you have questions about your insurance or if your coverage changes.</p>
+                  <p>Please contact us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a> if you have questions about your insurance or if your coverage changes.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1195,7 +1195,7 @@ const FAQ = () => {
 
                   <p className="font-semibold text-foreground">Important: Even if therapy is covered, dietitian services may not be, or vice versa. We strongly recommend verifying coverage for both types of services separately when you call your insurance company.</p>
                   
-                  <p>If you have questions about billing for either service, please call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a>.</p>
+                  <p>If you have questions about billing for either service, please call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a>.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1231,7 +1231,7 @@ const FAQ = () => {
 
                   <p className="font-semibold text-foreground">Why this matters: Insurance companies may provide us with preliminary benefit information, but only you as the policyholder can receive complete and binding coverage details. We encourage you to verify coverage directly with your insurance company using the CPT codes and questions listed above to avoid unexpected costs.</p>
                   
-                  <p>We're here to help! Call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a> with any questions about the verification process.</p>
+                  <p>We're here to help! Call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a> with any questions about the verification process.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1257,7 +1257,7 @@ const FAQ = () => {
 
                   <div>
                     <p className="font-semibold text-foreground">Without Insurance:</p>
-                    <p>We offer sliding scale fees based on income and financial need. Please ask about our sliding scale options when you call <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a>.</p>
+                    <p>We offer sliding scale fees based on income and financial need. Please ask about our sliding scale options when you call <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a>.</p>
                   </div>
 
                   <div>
@@ -1284,7 +1284,7 @@ const FAQ = () => {
                     <p>We may be able to work with you on payment arrangements for out-of-pocket costs.</p>
                   </div>
 
-                  <p>To discuss financial assistance options, please call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a>. Our team will work with you confidentially to find a solution that makes treatment accessible.</p>
+                  <p>To discuss financial assistance options, please call us at <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a>. Our team will work with you confidentially to find a solution that makes treatment accessible.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1315,7 +1315,7 @@ const FAQ = () => {
                     <p>If your final bill is significantly different (more than $400 over the estimate), you have the right to dispute the charges.</p>
                   </div>
 
-                  <p>To request a Good Faith Estimate, please call <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">360-726-4141</a> or mention it when scheduling your first appointment.</p>
+                  <p>To request a Good Faith Estimate, please call <a href="tel:360-726-4141" className="text-primary hover:underline font-semibold">(360) 726-4141</a> or mention it when scheduling your first appointment.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -1376,7 +1376,7 @@ const FAQ = () => {
               <Link to="/contact">Contact Us</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-primary">
-              <a href="tel:360-726-4141">Call 360-726-4141</a>
+              <a href="tel:360-726-4141">Call (360) 726-4141</a>
             </Button>
           </div>
         </div>

@@ -40,10 +40,10 @@ const EmeryPederson = () => {
               "url": "https://www.beyondeatingrecovery.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1000 Broadway Suite 215",
-                "addressLocality": "Vancouver",
-                "addressRegion": "WA",
-                "postalCode": "98660",
+                "streetAddress": "1235 SE Division St Suite 104",
+                "addressLocality": "Portland",
+                "addressRegion": "OR",
+                "postalCode": "97202",
                 "addressCountry": "US"
               },
               "telephone": "+1-360-726-4141"

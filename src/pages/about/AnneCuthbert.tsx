@@ -41,23 +41,23 @@ const AnneCuthbert = () => {
               "url": "https://www.beyondeatingrecovery.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1000 Broadway Suite 215",
-                "addressLocality": "Vancouver",
-                "addressRegion": "WA",
-                "postalCode": "98660",
+                "streetAddress": "1235 SE Division St Suite 104",
+                "addressLocality": "Portland",
+                "addressRegion": "OR",
+                "postalCode": "97202",
                 "addressCountry": "US"
               },
               "telephone": "+1-360-726-4141"
             },
             "workLocation": {
               "@type": "Place",
-              "name": "Beyond Eating Recovery - Vancouver Office",
+              "name": "Beyond Eating Recovery - Portland Office",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1000 Broadway Suite 215",
-                "addressLocality": "Vancouver",
-                "addressRegion": "WA",
-                "postalCode": "98660",
+                "streetAddress": "1235 SE Division St Suite 104",
+                "addressLocality": "Portland",
+                "addressRegion": "OR",
+                "postalCode": "97202",
                 "addressCountry": "US"
               }
             },
@@ -154,7 +154,7 @@ const AnneCuthbert = () => {
                 </Button>
                 <a href="tel:360-726-4141" className="flex items-center gap-2 text-white text-lg hover:text-[#f49a39] transition-colors">
                   <Phone className="w-5 h-5" />
-                  <span className="font-semibold">360-726-4141</span>
+                  <span className="font-semibold">(360) 726-4141</span>
                 </a>
               </div>
             </div>
@@ -509,7 +509,7 @@ const AnneCuthbert = () => {
               </Button>
               <a href="tel:360-726-4141" className="flex items-center gap-2 text-[#1a428a] text-xl font-bold hover:text-[#f49a39] transition-colors">
                 <Phone className="w-6 h-6" />
-                360-726-4141
+                (360) 726-4141
               </a>
               <a href="/contact" className="text-[#1a428a] hover:text-[#f49a39] underline transition-colors">
                 Or send us a message

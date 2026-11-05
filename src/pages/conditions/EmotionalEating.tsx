@@ -26,7 +26,7 @@ const EmotionalEating = () => {
         <title>Emotional Eating & Compulsive Overeating Treatment | Portland & Vancouver</title>
         <meta
           name="description"
-          content="Compassionate, weight-neutral therapy for emotional eating and compulsive overeating. Address root causes, not symptoms. End the shame cycle. Oregon & Washington telehealth—call 360-726-4141."
+          content="Compassionate, weight-neutral therapy for emotional eating and compulsive overeating. Address root causes, not symptoms. End the shame cycle. Oregon & Washington telehealth—call (360) 726-4141."
         />
         <meta
           name="keywords"
@@ -922,7 +922,7 @@ const EmotionalEating = () => {
 
                   <h3 className="text-2xl font-semibold text-primary mt-8 mb-4">Taking the First Step</h3>
                   <p className="text-foreground/90 leading-relaxed mb-4">
-                    Contact Beyond Eating Recovery at <strong className="text-primary">360-726-4141</strong> to schedule a consultation. We provide compassionate, weight-neutral therapy for emotional eating and compulsive overeating throughout Oregon and Washington.
+                    Contact Beyond Eating Recovery at <strong className="text-primary">(360) 726-4141</strong> to schedule a consultation. We provide compassionate, weight-neutral therapy for emotional eating and compulsive overeating throughout Oregon and Washington.
                   </p>
 
                   <h3 className="text-2xl font-semibold text-primary mt-8 mb-4">Lower-Barrier Entry Points</h3>
@@ -1145,7 +1145,7 @@ const EmotionalEating = () => {
                   <div className="mb-4">
                     <p className="text-sm mb-2">Call us today:</p>
                     <a href="tel:360-726-4141" className="text-2xl font-bold hover:underline block">
-                      360-726-4141
+                      (360) 726-4141
                     </a>
                   </div>
                   <p className="text-sm mb-4">

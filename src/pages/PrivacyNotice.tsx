@@ -22,23 +22,15 @@ const PrivacyNotice = () => {
         "address": [
           {
             "@type": "PostalAddress",
-            "streetAddress": "1235 SE Division Street, Suite 104",
+            "streetAddress": "1235 SE Division St Suite 104",
             "addressLocality": "Portland",
             "addressRegion": "OR",
             "postalCode": "97202",
             "addressCountry": "US"
-          },
-          {
-            "@type": "PostalAddress",
-            "streetAddress": "400 E. Evergreen Blvd, Suite 309",
-            "addressLocality": "Vancouver",
-            "addressRegion": "WA",
-            "postalCode": "98660",
-            "addressCountry": "US"
           }
         ],
         "telephone": "+1-360-726-4141",
-        "email": "info@beyondeating.com",
+        "email": "intakes@beyondeatingrecovery.com",
         "medicalSpecialty": "Eating Disorder Treatment",
         "areaServed": ["Portland, OR", "Vancouver, WA"]
       },

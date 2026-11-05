@@ -17,7 +17,7 @@ const LGBTQIAEatingDisorders = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>LGBTQIA+ Eating Disorder Treatment in Portland & Vancouver | Affirming Care</title>
-        <meta name="description" content="Truly affirming eating disorder treatment for LGBTQ+ individuals. Expert care addressing minority stress, trauma, identity. LGBTQIA+ group therapy available. Oregon & Washington—call 360-726-4141." />
+        <meta name="description" content="Truly affirming eating disorder treatment for LGBTQ+ individuals. Expert care addressing minority stress, trauma, identity. LGBTQIA+ group therapy available. Oregon & Washington—call (360) 726-4141." />
         <meta name="keywords" content="LGBTQ eating disorder treatment, LGBTQIA affirming therapy Portland, transgender eating disorder help Vancouver WA, gay eating disorder treatment, lesbian eating disorder therapy, non-binary eating disorder care, queer affirming counselor, minority stress eating disorder, gender dysphoria and eating disorder, LGBTQ group therapy, telehealth Oregon Washington" />
       </Helmet>
       <MedicalConditionSchema
@@ -875,7 +875,7 @@ const LGBTQIAEatingDisorders = () => {
                 <Button size="lg" variant="secondary" asChild>
                   <a href="tel:360-726-4141" className="flex items-center gap-2">
                     <Phone className="h-5 w-5" />
-                    Call 360-726-4141
+                    Call (360) 726-4141
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>
@@ -980,7 +980,7 @@ const LGBTQIAEatingDisorders = () => {
                 <div className="mb-4">
                   <p className="font-semibold mb-2">Individual & Group Therapy:</p>
                   <p className="text-sm mb-2">Call us today:</p>
-                  <p className="text-2xl font-bold mb-2">360-726-4141</p>
+                  <p className="text-2xl font-bold mb-2">(360) 726-4141</p>
                   <p className="text-sm mb-2">Office hours: Monday-Friday, 9am-5pm</p>
                   <p className="text-sm">Telehealth available throughout Oregon & Washington</p>
                 </div>

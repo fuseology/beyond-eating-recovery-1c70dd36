@@ -18,7 +18,7 @@ const ExerciseAddiction = () => {
         <title>Exercise Addiction & Compulsive Exercise Treatment | Portland & Vancouver</title>
         <meta 
           name="description" 
-          content="Specialized treatment for exercise addiction and compulsive exercise. Rediscover joyful, flexible movement. Address co-occurring eating disorders. Oregon & Washington—call 360-726-4141." 
+          content="Specialized treatment for exercise addiction and compulsive exercise. Rediscover joyful, flexible movement. Address co-occurring eating disorders. Oregon & Washington—call (360) 726-4141." 
         />
         <meta 
           name="keywords" 
@@ -1171,7 +1171,7 @@ const ExerciseAddiction = () => {
                     <div className="bg-primary/10 p-6 rounded-lg border-l-4 border-primary">
                       <h3 className="text-xl font-semibold text-primary mb-3">Taking the First Step</h3>
                       <p className="text-foreground leading-relaxed mb-4">
-                        Contact Beyond Eating Recovery at <strong className="text-primary">360-726-4141</strong> to schedule a consultation. We provide specialized, compassionate treatment for exercise addiction and compulsive exercise throughout Oregon and Washington.
+                        Contact Beyond Eating Recovery at <strong className="text-primary">(360) 726-4141</strong> to schedule a consultation. We provide specialized, compassionate treatment for exercise addiction and compulsive exercise throughout Oregon and Washington.
                       </p>
                       <h4 className="font-semibold text-primary mb-2">What Happens in Treatment:</h4>
                       <ul className="space-y-1 text-foreground text-sm">
@@ -1670,7 +1670,7 @@ const ExerciseAddiction = () => {
                         <p className="font-semibold mb-2">Call us today:</p>
                         <a href="tel:360-726-4141" className="text-2xl font-bold hover:underline flex items-center">
                           <Phone className="w-5 h-5 mr-2" />
-                          360-726-4141
+                          (360) 726-4141
                         </a>
                       </div>
                       <p className="text-sm mb-2">Office hours: Monday-Friday, 9am-5pm</p>

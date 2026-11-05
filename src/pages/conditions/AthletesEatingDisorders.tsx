@@ -16,7 +16,7 @@ const AthletesEatingDisorders = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Eating Disorders in Athletes: Treatment in Portland & Vancouver | Beyond Eating Recovery</title>
-        <meta name="description" content="Specialized treatment for athletes with eating disorders. Address sport culture, performance pressure, RED-S. Return-to-sport support. Weight-neutral, athlete-informed care. Oregon & Washington—call 360-726-4141." />
+        <meta name="description" content="Specialized treatment for athletes with eating disorders. Address sport culture, performance pressure, RED-S. Return-to-sport support. Weight-neutral, athlete-informed care. Oregon & Washington—call (360) 726-4141." />
         <meta name="keywords" content="athlete eating disorder treatment, sports eating disorder therapy Portland, RED-S treatment Vancouver WA, female athlete triad, eating disorder athlete recovery, return to sport, wrestler eating disorder, gymnast eating disorder, runner eating disorder, weight-class sport, aesthetic sport, compulsive exercise athlete, telehealth Oregon Washington" />
       </Helmet>
       <MedicalConditionSchema
@@ -874,7 +874,7 @@ const AthletesEatingDisorders = () => {
                 <Button size="lg" variant="secondary" asChild>
                   <a href="tel:360-726-4141" className="flex items-center gap-2">
                     <Phone className="h-5 w-5" />
-                    Call 360-726-4141
+                    Call (360) 726-4141
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>
@@ -976,7 +976,7 @@ const AthletesEatingDisorders = () => {
 
                 <div className="mb-4">
                   <p className="font-semibold mb-2">Call us today:</p>
-                  <p className="text-2xl font-bold mb-2">360-726-4141</p>
+                  <p className="text-2xl font-bold mb-2">(360) 726-4141</p>
                   <p className="text-sm mb-2">Office hours: Monday-Friday, 9am-5pm</p>
                   <p className="text-sm">Telehealth appointments available throughout Oregon and Washington.</p>
                 </div>

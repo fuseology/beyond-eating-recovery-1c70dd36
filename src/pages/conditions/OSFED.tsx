@@ -773,7 +773,7 @@ const OSFED = () => {
                   <Button asChild variant="outline" size="lg">
                     <a href="tel:360-726-4141">
                       <Phone className="mr-2 h-5 w-5" />
-                      360-726-4141
+                      (360) 726-4141
                     </a>
                   </Button>
                 </div>
@@ -947,7 +947,7 @@ const OSFED = () => {
                   <Phone className="h-4 w-4 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <a href="tel:360-726-4141" className="hover:underline">360-726-4141</a>
+                    <a href="tel:360-726-4141" className="hover:underline">(360) 726-4141</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">

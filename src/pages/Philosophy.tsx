@@ -288,7 +288,7 @@ const Philosophy = () => {
                   <div className="flex items-start gap-2">
                     <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
                     <div>
-                      <a href="tel:3607264141" className="hover:underline">360-726-4141</a>
+                      <a href="tel:3607264141" className="hover:underline">(360) 726-4141</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-2">

@@ -42,16 +42,16 @@ const About = () => {
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1000 Broadway Suite 215",
-        "addressLocality": "Vancouver",
-        "addressRegion": "WA",
-        "postalCode": "98660",
+        "streetAddress": "1235 SE Division St Suite 104",
+        "addressLocality": "Portland",
+        "addressRegion": "OR",
+        "postalCode": "97202",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 45.6280,
-        "longitude": -122.6739
+        "latitude": 45.5050654,
+        "longitude": -122.6528561
       },
       "areaServed": [
         {

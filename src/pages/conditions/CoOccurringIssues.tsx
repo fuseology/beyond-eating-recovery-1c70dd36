@@ -891,7 +891,7 @@ const CoOccurringIssues = () => {
 
               <div className="text-center">
                 <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
-                  <a href="tel:360-726-4141">Call Us: 360-726-4141</a>
+                  <a href="tel:360-726-4141">Call Us: (360) 726-4141</a>
                 </Button>
               </div>
             </section>
@@ -1103,7 +1103,7 @@ const CoOccurringIssues = () => {
               <div className="space-y-2 mb-4 text-sm">
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4" />
-                  <a href="tel:360-726-4141" className="hover:underline">360-726-4141</a>
+                  <a href="tel:360-726-4141" className="hover:underline">(360) 726-4141</a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
