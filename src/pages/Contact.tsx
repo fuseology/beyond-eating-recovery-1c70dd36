@@ -242,16 +242,16 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Contact Us | Beyond Eating Recovery - Portland, OR</title>
-        <meta name="description" content="Contact Beyond Eating Recovery in Portland, Oregon for eating disorder treatment. Call 360-726-4141 or fill out our form for a free consultation. Serving Portland & Vancouver, WA." />
+        <meta name="description" content="Contact Beyond Eating Recovery in Portland, Oregon for eating disorder treatment. Call (360) 726-4141 or fill out our form for a free consultation. Serving Portland & Vancouver, WA." />
         <link rel="canonical" href="https://www.beyondeatingrecovery.com/contact" />
         <meta property="og:title" content="Contact Us | Beyond Eating Recovery - Portland, OR" />
-        <meta property="og:description" content="Contact Beyond Eating Recovery in Portland, Oregon for eating disorder treatment. Call 360-726-4141 or fill out our form for a free consultation." />
+        <meta property="og:description" content="Contact Beyond Eating Recovery in Portland, Oregon for eating disorder treatment. Call (360) 726-4141 or fill out our form for a free consultation." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.beyondeatingrecovery.com/contact" />
         <meta property="og:image" content="https://www.beyondeatingrecovery.com/hero-background.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Us | Beyond Eating Recovery - Portland, OR" />
-        <meta name="twitter:description" content="Contact Beyond Eating Recovery in Portland, Oregon for eating disorder treatment. Call 360-726-4141 or fill out our form for a free consultation." />
+        <meta name="twitter:description" content="Contact Beyond Eating Recovery in Portland, Oregon for eating disorder treatment. Call (360) 726-4141 or fill out our form for a free consultation." />
         <meta name="twitter:image" content="https://www.beyondeatingrecovery.com/hero-background.jpg" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -494,7 +494,7 @@ const Contact = () => {
                     </li>
                   </ul>
                   <p className="mt-6 text-foreground/80 border-t border-primary/20 pt-4">
-                    We're here to help you navigate the insurance process, but final coverage decisions are made by your insurance company. Call us at <a href="tel:3607264141" className="text-primary font-semibold hover:underline">360-726-4141</a> with questions.
+                    We're here to help you navigate the insurance process, but final coverage decisions are made by your insurance company. Call us at <a href="tel:3607264141" className="text-primary font-semibold hover:underline">(360) 726-4141</a> with questions.
                   </p>
                 </CardContent>
               </Card>
@@ -726,7 +726,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <p className="mt-6 text-center text-foreground/80">
-                    Call <a href="tel:3607264141" className="text-primary font-semibold hover:underline">360-726-4141</a> to discuss financial assistance options. <strong>We believe cost should not be a barrier to recovery.</strong>
+                    Call <a href="tel:3607264141" className="text-primary font-semibold hover:underline">(360) 726-4141</a> to discuss financial assistance options. <strong>We believe cost should not be a barrier to recovery.</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -749,7 +749,7 @@ const Contact = () => {
                 <a href="tel:3607264141">
                   <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white min-w-[200px]">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call 360-726-4141
+                    Call (360) 726-4141
                   </Button>
                 </a>
               </div>

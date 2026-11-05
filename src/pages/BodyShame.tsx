@@ -642,7 +642,7 @@ const BodyShame = () => {
                     <Button size="lg" className="bg-accent hover:bg-accent/90" asChild>
                       <Link to="/contact">Schedule Your Free Consultation</Link>
                     </Button>
-                    <p className="mt-4 text-muted-foreground">Call us: 360-726-4141</p>
+                    <p className="mt-4 text-muted-foreground">Call us: (360) 726-4141</p>
                   </div>
                 </div>
               </section>
@@ -793,7 +793,7 @@ const BodyShame = () => {
                     Take the first step toward body peace. Schedule a free consultation to learn how we can support you in healing body shame and reclaiming your life.
                   </p>
                   <div className="space-y-2 text-sm">
-                    <p>📞 Phone: 360-726-4141</p>
+                    <p>📞 Phone: (360) 726-4141</p>
                     <p>📍 Portland, OR & Vancouver, WA</p>
                     <p>💻 Teletherapy Available</p>
                     <p className="text-xs opacity-90">Monday - Friday: 9am - 5pm</p>

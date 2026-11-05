@@ -38,7 +38,7 @@ const WorkshopSection = () => {
                   </Button>
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Phone className="w-4 h-4" />
-                    <span>Call <strong className="text-primary">360-726-4141</strong> for Registration</span>
+                    <span>Call <strong className="text-primary">(360) 726-4141</strong> for Registration</span>
                   </div>
                 </div>
               </CardContent>

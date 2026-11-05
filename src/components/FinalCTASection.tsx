@@ -43,7 +43,7 @@ const FinalCTASection = () => {
 
               <div className="flex items-center justify-center md:justify-start gap-2 text-base font-semibold text-primary">
                 <Phone className="w-5 h-5" />
-                <span>Or call us: 360-726-4141</span>
+                <span>Or call us: (360) 726-4141</span>
               </div>
             </div>
           </div>

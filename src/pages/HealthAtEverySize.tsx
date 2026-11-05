@@ -1138,7 +1138,7 @@ const HealthAtEverySize = () => {
                 We're happy to talk with you.
               </p>
               <p className="text-lg mt-4">
-                Contact us at <a href="tel:360-726-4141" className="font-semibold hover:text-accent transition-colors">360-726-4141</a> or through our <a href="/contact" className="font-semibold hover:text-accent transition-colors">contact form</a>.
+                Contact us at <a href="tel:360-726-4141" className="font-semibold hover:text-accent transition-colors">(360) 726-4141</a> or through our <a href="/contact" className="font-semibold hover:text-accent transition-colors">contact form</a>.
               </p>
             </div>
           </div>

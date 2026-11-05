@@ -602,7 +602,7 @@ const Orthorexia = () => {
                       Schedule a Free Consultation
                     </Button>
                     <p className="mt-4 text-sm text-muted-foreground">
-                      Call: <a href="tel:360-726-4141" className="text-accent hover:underline">360-726-4141</a>
+                      Call: <a href="tel:360-726-4141" className="text-accent hover:underline">(360) 726-4141</a>
                     </p>
                   </div>
                 </div>
@@ -818,7 +818,7 @@ const Orthorexia = () => {
                   <div className="space-y-3 mb-4 text-sm">
                     <div className="flex items-start">
                       <Phone className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" />
-                      <span>360-726-4141</span>
+                      <span>(360) 726-4141</span>
                     </div>
                     <div className="flex items-start">
                       <Mail className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" />

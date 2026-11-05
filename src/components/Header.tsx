@@ -290,7 +290,7 @@ const Header = () => {
             </Link>
             <a href="tel:3607264141" className="flex items-center gap-2 text-white font-semibold hover:text-white/90 transition-colors">
               <Phone className="w-4 h-4" />
-              360-726-4141
+              (360) 726-4141
             </a>
           </div>
 
@@ -472,7 +472,7 @@ const Header = () => {
                     href="tel:3607264141" 
                     className="flex items-center justify-center gap-2 text-xl font-bold text-primary hover:text-accent"
                   >
-                    📞 360-726-4141
+                    📞 (360) 726-4141
                   </a>
                   <Link to="/contact" onClick={() => setIsOpen(false)}>
                     <Button className="w-full bg-accent hover:bg-accent/90 text-white">

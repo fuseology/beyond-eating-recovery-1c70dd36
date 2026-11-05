@@ -85,7 +85,7 @@ const SecureFileSubmissions = () => {
                   </a>
                   {" "}or call us at{" "}
                   <a href="tel:3607264141" className="text-primary hover:underline">
-                    360-726-4141
+                    (360) 726-4141
                   </a>
                   .
                 </p>

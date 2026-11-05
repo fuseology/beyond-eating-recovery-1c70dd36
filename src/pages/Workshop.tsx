@@ -46,7 +46,7 @@ const Workshop = () => {
     },
     {
       question: "Is this right for me?",
-      answer: "If you're struggling with body image, self-acceptance, or recovering from an eating disorder, this workshop can be transformative. Call Anne at 360-726-4141 to discuss whether it's the right fit for you."
+      answer: "If you're struggling with body image, self-acceptance, or recovering from an eating disorder, this workshop can be transformative. Call Anne at (360) 726-4141 to discuss whether it's the right fit for you."
     },
     {
       question: "Can I attend if I've been before?",
@@ -54,7 +54,7 @@ const Workshop = () => {
     },
     {
       question: "What if I have questions?",
-      answer: "Call Anne directly at 360-726-4141. She's happy to discuss the workshop, answer questions, and help you decide if it's right for you."
+      answer: "Call Anne directly at (360) 726-4141. She's happy to discuss the workshop, answer questions, and help you decide if it's right for you."
     }
   ];
 
@@ -106,7 +106,7 @@ const Workshop = () => {
           <a href="tel:3607264141">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-white text-xl px-10 py-7 shadow-xl">
               <Phone className="w-6 h-6 mr-3" />
-              Call to Register: 360-726-4141
+              Call to Register: (360) 726-4141
             </Button>
           </a>
         </div>
@@ -244,7 +244,7 @@ const Workshop = () => {
             <a href="tel:3607264141" className="inline-block mb-8">
               <div className="text-5xl font-bold text-accent hover:text-accent/80 transition-colors flex items-center gap-4 justify-center">
                 <Phone className="w-12 h-12" />
-                360-726-4141
+                (360) 726-4141
               </div>
             </a>
             <p className="text-muted-foreground mb-6">or</p>

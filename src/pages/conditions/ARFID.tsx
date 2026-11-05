@@ -679,7 +679,7 @@ const ARFID = () => {
                 </Button>
                 <p className="text-sm text-muted-foreground">
                   <Phone className="inline h-4 w-4 mr-1" />
-                  Call us: <a href="tel:360-726-4141" className="text-accent hover:underline">360-726-4141</a>
+                  Call us: <a href="tel:360-726-4141" className="text-accent hover:underline">(360) 726-4141</a>
                 </p>
               </div>
             </section>
@@ -937,7 +937,7 @@ const ARFID = () => {
                   <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-xs opacity-75">Phone</p>
-                    <a href="tel:360-726-4141" className="text-sm font-semibold hover:underline">360-726-4141</a>
+                    <a href="tel:360-726-4141" className="text-sm font-semibold hover:underline">(360) 726-4141</a>
                   </div>
                 </div>
                 

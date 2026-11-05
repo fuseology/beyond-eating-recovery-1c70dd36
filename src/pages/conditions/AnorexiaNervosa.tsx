@@ -585,7 +585,7 @@ const AnorexiaNervosa = () => {
                     <Link to="/contact">Start Your Recovery Journey Today</Link>
                   </Button>
                   <Button asChild size="lg" variant="outline">
-                    <a href="tel:360-726-4141">Call 360-726-4141</a>
+                    <a href="tel:360-726-4141">Call (360) 726-4141</a>
                   </Button>
                 </div>
               </div>
@@ -838,7 +838,7 @@ const AnorexiaNervosa = () => {
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <Phone className="h-4 w-4 text-primary" />
-                    <a href="tel:360-726-4141" className="hover:text-primary">Call: 360-726-4141</a>
+                    <a href="tel:360-726-4141" className="hover:text-primary">Call: (360) 726-4141</a>
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <MapPin className="h-4 w-4 text-primary" />

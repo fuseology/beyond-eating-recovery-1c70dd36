@@ -18,7 +18,7 @@ const MenEatingDisorders = () => {
         <title>Eating Disorders in Men: Treatment in Portland & Vancouver | Beyond Eating Recovery</title>
         <meta 
           name="description" 
-          content="Men get eating disorders too. Specialized, gender-affirming treatment for men with anorexia, bulimia, binge eating, muscle dysmorphia. Your struggles are valid. Oregon & Washington—call 360-726-4141." 
+          content="Men get eating disorders too. Specialized, gender-affirming treatment for men with anorexia, bulimia, binge eating, muscle dysmorphia. Your struggles are valid. Oregon & Washington—call (360) 726-4141." 
         />
         <meta 
           name="keywords" 
@@ -693,7 +693,7 @@ const MenEatingDisorders = () => {
                         The hardest part is often admitting you need help. Masculinity norms make vulnerability difficult. <strong>Asking for help is strength, not weakness.</strong>
                       </p>
                       <p className="text-foreground leading-relaxed">
-                        Contact Beyond Eating Recovery at <strong className="text-primary">360-726-4141</strong> to schedule a consultation. We provide specialized, gender-affirming treatment for men with eating disorders throughout Oregon and Washington.
+                        Contact Beyond Eating Recovery at <strong className="text-primary">(360) 726-4141</strong> to schedule a consultation. We provide specialized, gender-affirming treatment for men with eating disorders throughout Oregon and Washington.
                       </p>
                     </div>
                   </div>
@@ -965,7 +965,7 @@ const MenEatingDisorders = () => {
                         <p className="font-semibold mb-2">Call us today:</p>
                         <a href="tel:360-726-4141" className="text-2xl font-bold hover:underline flex items-center">
                           <Phone className="w-5 h-5 mr-2" />
-                          360-726-4141
+                          (360) 726-4141
                         </a>
                       </div>
                       <p className="text-sm mb-2">Office hours: Monday-Friday, 9am-5pm</p>

@@ -215,7 +215,7 @@ const Conditions = () => {
         <title>Eating Disorders We Treat | Beyond Eating Recovery Portland & Vancouver</title>
         <meta 
           name="description" 
-          content="Comprehensive eating disorder treatment for anorexia, bulimia, binge eating, ARFID, orthorexia, and more. Weight-neutral, HAES®-aligned care throughout Oregon and Washington. Call 360-726-4141." 
+          content="Comprehensive eating disorder treatment for anorexia, bulimia, binge eating, ARFID, orthorexia, and more. Weight-neutral, HAES®-aligned care throughout Oregon and Washington. Call (360) 726-4141." 
         />
         <meta name="keywords" content="eating disorder treatment, anorexia treatment Portland, bulimia therapy Vancouver WA, binge eating disorder help, ARFID treatment, orthorexia counseling, eating disorder types, HAES therapist, weight-neutral treatment, telehealth Oregon Washington" />
         <link rel="canonical" href="https://www.beyondeatingrecovery.com/conditions" />
@@ -642,7 +642,7 @@ const Conditions = () => {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Phone</p>
                     <a href="tel:360-726-4141" className="text-primary hover:underline text-lg font-bold">
-                      360-726-4141
+                      (360) 726-4141
                     </a>
                   </div>
                 </div>

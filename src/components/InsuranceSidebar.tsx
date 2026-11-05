@@ -19,7 +19,7 @@ const InsuranceSidebar = () => {
             </li>
             <li className="flex items-start gap-2">
               <CheckCircle className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-              <span><strong>You must notify us immediately of any insurance changes.</strong> If you switch plans or coverage changes during treatment, call us at <a href="tel:3607264141" className="text-primary font-semibold hover:underline">360-726-4141</a> right away.</span>
+              <span><strong>You must notify us immediately of any insurance changes.</strong> If you switch plans or coverage changes during treatment, call us at <a href="tel:3607264141" className="text-primary font-semibold hover:underline">(360) 726-4141</a> right away.</span>
             </li>
           </ul>
           <p className="text-xs text-muted-foreground mt-3 pt-3 border-t">

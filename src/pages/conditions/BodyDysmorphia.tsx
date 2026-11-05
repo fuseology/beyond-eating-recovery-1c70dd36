@@ -18,7 +18,7 @@ const BodyDysmorphia = () => {
         <title>Body Dysmorphia (BDD) Treatment in Portland & Vancouver | Beyond Eating Recovery</title>
         <meta 
           name="description" 
-          content="Evidence-based CBT and ERP therapy for body dysmorphic disorder. Specialized treatment addressing appearance preoccupation and co-occurring eating disorders. Oregon & Washington—call 360-726-4141." 
+          content="Evidence-based CBT and ERP therapy for body dysmorphic disorder. Specialized treatment addressing appearance preoccupation and co-occurring eating disorders. Oregon & Washington—call (360) 726-4141." 
         />
         <meta 
           name="keywords" 
@@ -1149,7 +1149,7 @@ const BodyDysmorphia = () => {
                     <div className="bg-primary/10 p-6 rounded-lg border-l-4 border-primary">
                       <h3 className="text-xl font-semibold text-primary mb-3">Taking the First Step</h3>
                       <p className="text-foreground leading-relaxed mb-4">
-                        Contact Beyond Eating Recovery at <strong className="text-primary">360-726-4141</strong> to schedule a consultation. We provide specialized, compassionate treatment for body dysmorphic disorder throughout Oregon and Washington.
+                        Contact Beyond Eating Recovery at <strong className="text-primary">(360) 726-4141</strong> to schedule a consultation. We provide specialized, compassionate treatment for body dysmorphic disorder throughout Oregon and Washington.
                       </p>
                       <h4 className="font-semibold text-primary mb-2">What to Expect in First Session:</h4>
                       <ul className="space-y-1 text-foreground text-sm">
@@ -1611,7 +1611,7 @@ const BodyDysmorphia = () => {
                         <p className="font-semibold mb-2">Call us today:</p>
                         <a href="tel:360-726-4141" className="text-2xl font-bold hover:underline flex items-center">
                           <Phone className="w-5 h-5 mr-2" />
-                          360-726-4141
+                          (360) 726-4141
                         </a>
                       </div>
                       <p className="text-sm mb-2">Office hours: Monday-Friday, 9am-5pm</p>
