@@ -57,7 +57,7 @@ const Contact = () => {
   ];
 
   const portland = NAP_DATA.locations.portland;
-  const vancouver = NAP_DATA.locations.vancouver;
+  const vancouver = { city: "Vancouver", state: "WA", stateFullName: "Washington" };
 
   const structuredData = {
     "@context": "https://schema.org",

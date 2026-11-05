@@ -17,7 +17,7 @@ import { getAggregateRatingSchema, BUSINESS_RATING } from "@/components/schemas"
 
 const Index = () => {
   const portland = NAP_DATA.locations.portland;
-  const vancouver = NAP_DATA.locations.vancouver;
+  const vancouver = { city: "Vancouver", state: "WA", stateFullName: "Washington" };
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -39,14 +39,6 @@ const Index = () => {
             "addressRegion": portland.state,
             "postalCode": portland.zip,
             "addressCountry": portland.countryCode
-          },
-          {
-            "@type": "PostalAddress",
-            "streetAddress": vancouver.street,
-            "addressLocality": vancouver.city,
-            "addressRegion": vancouver.state,
-            "postalCode": vancouver.zip,
-            "addressCountry": vancouver.countryCode
           }
         ],
         "telephone": NAP_DATA.phoneInternational,
@@ -163,61 +155,6 @@ const Index = () => {
         "aggregateRating": getAggregateRatingSchema(BUSINESS_RATING)
       },
       {
-        "@type": "LocalBusiness",
-        "@id": `${NAP_DATA.website}/#localbusiness-vancouver`,
-        "name": `${NAP_DATA.businessName} - ${vancouver.city}`,
-        "image": `${NAP_DATA.website}/assets/office-space.webp`,
-        "description": `Eating disorder treatment center in ${vancouver.city}, ${vancouver.stateFullName} offering compassionate therapy for anorexia, bulimia, binge eating disorder, and body image concerns.`,
-        "url": NAP_DATA.website,
-        "telephone": NAP_DATA.phoneInternational,
-        "email": NAP_DATA.email,
-        "priceRange": "$$",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": vancouver.street,
-          "addressLocality": vancouver.city,
-          "addressRegion": vancouver.state,
-          "postalCode": vancouver.zip,
-          "addressCountry": vancouver.countryCode
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": vancouver.coordinates.latitude.toString(),
-          "longitude": vancouver.coordinates.longitude.toString()
-        },
-        "areaServed": [
-          { "@type": "City", "name": "Vancouver" },
-          { "@type": "City", "name": "Camas" },
-          { "@type": "City", "name": "Washougal" },
-          { "@type": "City", "name": "Battle Ground" },
-          { "@type": "City", "name": "Ridgefield" },
-          { "@type": "City", "name": "Hazel Dell" },
-          { "@type": "City", "name": "Salmon Creek" },
-          { "@type": "City", "name": "Brush Prairie" },
-          { "@type": "AdministrativeArea", "name": "Clark County, Washington" }
-        ],
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "09:00",
-            "closes": "14:00"
-          }
-        ],
-        "sameAs": [
-          ...Object.values(NAP_DATA.socialMedia),
-          "https://www.google.com/maps/place/?q=place_id:0x0:0xfe6c6aa5392359df"
-        ],
-        "hasMap": vancouver.googleMapsUrl,
-        "aggregateRating": getAggregateRatingSchema(BUSINESS_RATING)
-      },
-      {
         "@type": "WebSite",
         "@id": `${NAP_DATA.website}/#website`,
         "url": NAP_DATA.website,
@@ -327,7 +264,7 @@ const Index = () => {
             "name": "Do you offer in-person and virtual sessions?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We offer both in-person sessions at our Portland (SE Division) and Vancouver (E. Evergreen) locations, and telehealth sessions for clients across Oregon and Washington."
+              "text": "Yes. We offer both in-person sessions at our one Portland office (SE Division), and telehealth sessions for clients in Vancouver, WA and across Oregon and Washington."
             }
           },
           {

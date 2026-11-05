@@ -15,7 +15,7 @@
  * 
  * 2. ADDRESS CONSISTENCY
  *    Portland Location:
- *    - 1235 SE Division Street, Suite 104
+ *    - 1235 SE Division St Suite 104
  *    - Portland, OR 97202
  *    - United States
  * 
@@ -67,20 +67,20 @@ export const NAP_DATA = {
   phone: "(360) 726-4141",
   phoneInternational: "+1-360-726-4141",
   phoneRaw: "3607264141",
-  email: "info@beyondeating.com",
+  email: "intakes@beyondeatingrecovery.com",
   website: "https://www.beyondeatingrecovery.com",
   
   locations: {
     portland: {
       name: "Portland Office",
-      street: "1235 SE Division Street, Suite 104",
+      street: "1235 SE Division St Suite 104",
       city: "Portland",
       state: "OR",
       stateFullName: "Oregon",
       zip: "97202",
       country: "United States",
       countryCode: "US",
-      fullAddress: "1235 SE Division Street, Suite 104, Portland, OR 97202",
+      fullAddress: "1235 SE Division St Suite 104, Portland, OR 97202",
       coordinates: {
         latitude: 45.5050654,
         longitude: -122.6528561

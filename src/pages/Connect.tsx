@@ -15,7 +15,7 @@ const localBusinessSchema = {
   "telephone": "(360) 726-4141",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1235 Southeast Division Street",
+    "streetAddress": "1235 SE Division St Suite 104",
     "addressLocality": "Portland",
     "addressRegion": "OR",
     "postalCode": "97202",
@@ -185,7 +185,7 @@ const Connect = () => {
                       <ExternalLink className="w-4 h-4" />
                     </a>
                     <address className="not-italic text-foreground/90">
-                      1235 Southeast Division Street
+                      1235 SE Division St Suite 104
                       <br />
                       Portland, OR 97202
                     </address>

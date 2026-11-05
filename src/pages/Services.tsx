@@ -37,7 +37,7 @@ const Services = () => {
         "telephone": "+1-360-726-4141",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "1235 SE Division Street, Suite 104",
+          "streetAddress": "1235 SE Division St Suite 104",
           "addressLocality": "Portland",
           "addressRegion": "OR",
           "postalCode": "97202",
@@ -76,7 +76,7 @@ const Services = () => {
         "telephone": "+1-360-726-4141",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "1235 SE Division Street, Suite 104",
+          "streetAddress": "1235 SE Division St Suite 104",
           "addressLocality": "Portland",
           "addressRegion": "OR",
           "postalCode": "97202",

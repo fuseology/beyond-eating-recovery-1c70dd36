@@ -45,23 +45,23 @@ const SaraKranich = () => {
               "url": "https://www.beyondeatingrecovery.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1000 Broadway Suite 215",
-                "addressLocality": "Vancouver",
-                "addressRegion": "WA",
-                "postalCode": "98660",
+                "streetAddress": "1235 SE Division St Suite 104",
+                "addressLocality": "Portland",
+                "addressRegion": "OR",
+                "postalCode": "97202",
                 "addressCountry": "US"
               },
               "telephone": "+1-360-726-4141"
             },
             "workLocation": {
               "@type": "Place",
-              "name": "Beyond Eating Recovery - Vancouver Office",
+              "name": "Beyond Eating Recovery - Portland Office",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1000 Broadway Suite 215",
-                "addressLocality": "Vancouver",
-                "addressRegion": "WA",
-                "postalCode": "98660",
+                "streetAddress": "1235 SE Division St Suite 104",
+                "addressLocality": "Portland",
+                "addressRegion": "OR",
+                "postalCode": "97202",
                 "addressCountry": "US"
               }
             },
@@ -779,7 +779,7 @@ const SaraKranich = () => {
           </div>
           
           <p className="text-white text-lg">
-            Email: [email address] | Portland & Vancouver Offices | Telehealth: OR & WA
+            Email: [email address] | Portland office, with telehealth for Vancouver, WA | Telehealth: OR & WA
           </p>
         </div>
       </section>
