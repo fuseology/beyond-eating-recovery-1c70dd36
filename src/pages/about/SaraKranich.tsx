@@ -779,7 +779,7 @@ const SaraKranich = () => {
           </div>
           
           <p className="text-white text-lg">
-            Email: [email address] | Portland office, with telehealth for Vancouver, WA | Telehealth: OR & WA
+            Email: intakes@beyondeatingrecovery.com | Portland office, with telehealth for Vancouver, WA | Telehealth: OR & WA
           </p>
         </div>
       </section>
