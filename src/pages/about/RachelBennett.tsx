@@ -795,7 +795,7 @@ const RachelBennett = () => {
           </div>
           
           <p className="text-white text-lg">
-            Email: [email address] | Portland, OR & Vancouver, WA | Telehealth: OR & WA
+            Email: intakes@beyondeatingrecovery.com | Portland, OR & Vancouver, WA | Telehealth: OR & WA
           </p>
         </div>
       </section>
