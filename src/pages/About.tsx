@@ -38,7 +38,7 @@ const About = () => {
       "description": "Outpatient eating disorder treatment center providing compassionate, evidence-based therapy and nutrition counseling using Health At Every Size (HAES) and Intuitive Eating approaches.",
       "url": "https://www.beyondeatingrecovery.com",
       "telephone": "+1-360-726-4141",
-      "email": "info@beyondeatingrecovery.com",
+      "email": "intakes@beyondeatingrecovery.com",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
